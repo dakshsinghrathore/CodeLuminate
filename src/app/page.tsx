@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import { BackgroundBeams } from "@/components/ui/background-beams";
+import Link from "next/link";
 
 export default function BackgroundBeamsDemo() {
   return (
@@ -14,11 +15,13 @@ export default function BackgroundBeamsDemo() {
         <p className="text-neutral-500 max-w-lg mx-auto my-6 text-sm text-center relative z-10">
         Ready to shine on GitHub? Start illuminating your profile with CodeLuminate now! Analyze, enhance, and showcase your coding journey with ease.
         </p>
-        <input
-          type="text"
-          placeholder="github-username"
-          className="rounded-xl border border-neutral-800 focus:ring-2 focus:ring-teal-500  w-full relative z-10 mt-4  bg-neutral-950 placeholder:text-neutral-700 h-[2.3rem] px-2"
-        />
+        <Link href={"/username"}>
+        <button  className="bg-gradient-to-r from-teal-500 to-teal-400 text-black text-lg rounded-xl w-full relative z-10 mt-4 py-1">
+        
+          Get Started
+         
+        </button>
+        </Link>
       </div>
       <BackgroundBeams />
     </div>
