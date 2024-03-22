@@ -17,10 +17,10 @@ function Navbar({ className }: { className?: string }) {
         </MenuItem>
         </Link>
         <MenuItem setActive={setActive} active={active} item="About">
-        <HoveredLink href="https://github.com/dakshsinghrathore/CodeLuminate/blob/main/README.md">Readme</HoveredLink>
+        <HoveredLink href="https://github.com/dakshsinghrathore/CodeLuminate/blob/main/README.md" target="_blank">Readme</HoveredLink>
         </MenuItem>
         <MenuItem setActive={setActive} active={active} item="Contact">
-        <HoveredLink href="https://twitter.com/dakshsinghrath9">X</HoveredLink>
+        <HoveredLink href="https://twitter.com/dakshsinghrath9" target="_blank">X</HoveredLink>
         </MenuItem>
         </Menu>
     </div>
