@@ -4,7 +4,11 @@
 
 Ready to **showcase** your ***coding*** prowess? Let CodeLuminate be your guide to crafting a ***standout*** GitHub profile.
 
-![860shots_so](https://github.com/dakshsinghrathore/Gamble-JS/assets/115932772/a08f2e83-fbdf-46e2-b8cd-23fcba18aabf)
+
+![image](https://github.com/dakshsinghrathore/CodeLuminate/assets/115932772/bfc8ae4e-4fc8-4a39-bc4c-dfe35a257492)
+
+## 🚀 Features
+![image](https://github.com/dakshsinghrathore/CodeLuminate/assets/115932772/c5f7b95d-2199-482b-91ab-5d78f5ff92fe)
 
 ## 💻 Tech Stack
 
