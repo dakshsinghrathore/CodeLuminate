@@ -1,5 +1,5 @@
 export async function getUserData(username: string) {
-  const accessToken = "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";
+  const accessToken = "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";
   try {
     const response = await fetch(`https://api.github.com/users/${username}`, {
       headers: {
